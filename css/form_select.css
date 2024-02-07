@@ -1,0 +1,43 @@
+.form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 21, 129);
+    margin: auto;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form label{
+    color: #fff;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_area select{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.form_area > select > option{
+    color: black;
+}
+
+.form_footer{
+    padding: 15px;
+}
+
+.form_footer .submit{
+    width: 50%;
+    height: 30px;
+    background-color: floralwhite;
+    border-radius: 10px;
+    color: black;
+}

@@ -1,0 +1,4 @@
+[2024-01-31T14:35:24.766813+01:00] app.INFO: Usuário acessou a página {"usuario":null,"página":"/estoque/BD/processos/processar_login.php"} []
+[2024-01-31T14:35:24.770011+01:00] app.INFO: Usuário realizou alguma ação {"usuario":null,"ação":"Ação específica"} []
+[2024-01-31T15:07:13.484779+01:00] app.INFO: Usuário acessou a página {"usuario":null,"página":"/estoque/BD/processos/processar_login.php"} []
+[2024-01-31T15:07:13.487103+01:00] app.INFO: Usuário realizou alguma ação {"usuario":null,"ação":"Ação específica"} []

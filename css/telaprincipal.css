@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "topo"
+        "centro";
+}
+
+.topo {
+    grid-area: topo;
+    background-color: rgb(21, 21, 129);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: -15px 15px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+.topo > img {
+    margin: 0;
+    width: 12%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.topo > .perfil {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.topo > .perfil span {
+    margin-right: 10px; 
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.topo > .perfil a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.topo > .perfil a:hover {
+    color: #555;
+}
+
+.centro {
+    grid-area: centro;
+    height: 200px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+}
+
+.container > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 280;
+    font-size: 1.0rem;
+    background-color: rgb(21, 21, 129);
+    padding: 3px 7px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+#conteudo {
+    display: block;
+    margin: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding-top: 20px;
+    top: 330px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    /* Suas regras de estilo para telas menores */
+}

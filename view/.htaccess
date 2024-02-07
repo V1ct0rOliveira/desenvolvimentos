@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule avulso/view http://10.8.0.9/estoque_teste/ [R=301,L]

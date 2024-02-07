@@ -1,0 +1,62 @@
+.form {
+    text-align: center;
+    background-color: rgb(21, 21, 129);
+    padding: 15px;
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form > h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-size: large;
+}
+
+.form_area label{
+    color: #fff;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_area input{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.form_area select{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.form_area > select > option{
+    color: black;
+}
+
+.form_footer{
+    padding: 20px;
+}
+
+.form_footer .submit{
+    width: 80%;
+    height: 40px;
+    background-color: floralwhite;
+    border-radius: 10px;
+    color: black;
+    margin: 10px 0;
+}

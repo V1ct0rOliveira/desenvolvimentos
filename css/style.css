@@ -1,0 +1,97 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.geraDocs {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.gera1 {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.gera2 {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.form_gera > .submit {
+    width: auto;
+    height: 30px;
+    background-color: rgb(21, 21, 129);
+    border-radius: 10px;
+    color: white;
+}
+
+.form_gera_entrada > .submit {
+    width: auto;
+    height: 30px;
+    background-color: rgb(21, 21, 129);
+    border-radius: 10px;
+    color: white;
+}
+
+.form_gera_saida > .submit {
+    width: auto;
+    height: 30px;
+    background-color: rgb(21, 21, 129);
+    border-radius: 10px;
+    color: white;
+}
+
+table {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table th,
+table td {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th {
+    background-color: rgb(21, 21, 129);
+    color: white;
+}
+
+table tr:hover {
+    background-color: #e0e0e0;
+}
+
+table > tbody > tr > td > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

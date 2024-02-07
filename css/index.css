@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "topo" 
+        "centro";
+}
+
+.topo {
+    grid-area: topo;
+    background-color: rgb(21, 21, 129);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+    z-index: 1;
+    box-shadow: -15px 15px 7px 0px rgba(0,0,0,0.1);
+}
+
+.topo > img{
+    width: 12%;
+    border-radius: 10px;
+}
+
+.centro{
+    grid-area: centro;
+    height: calc(100vh - 180px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+    background-color: rgb(21, 21, 129);
+    padding: 20px;
+    width: 320px;
+    border-radius: 15px;
+}
+
+h2{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+h4{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.form_contest label{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_area input{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.form_footer{
+    padding: 20px;
+}
+
+.form_footer .submit{
+    width: 80%;
+    height: 40px;
+    background-color: floralwhite;
+    border-radius: 10px;
+    color: black;
+    margin: 10px 0;
+}
+
+.form_footer a{
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
